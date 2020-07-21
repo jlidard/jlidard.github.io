@@ -1,0 +1,9 @@
+Justin Lidard is a Mechanical and Aerospace Engineering PhD student at Princeton
+University, where he works in the intersection of dynamical systems and machine
+learning. He recieved his B.S. in aerospace engineering with a minor in computer 
+science at the University of Maryland, where he completed honors thesis research 
+on maximizing airfoil lift with nonlinear control of an aerodynamic regression 
+model with Professor Derek Paley. He recieved the UMD Rivello Award for Academic 
+Excellence in 2019, the NASA Space Technology Research Fellowship in 2020, and 
+the United States Department of Defense National  Defense Science and Engineering 
+Graduate (NDSEG) Fellowship, also in 2020. 
