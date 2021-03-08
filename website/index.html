@@ -16,21 +16,59 @@
   
   <meta name="author" content="Justin Lidard">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/Princeton_Shield_Logo.png">
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="icon" type="image/png" href="images/super_mario__super_mushroom_2d_by_joshuat1306_dcn2tsb-fullview.png">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" />
+  <script src="https://kit.fontawesome.com/b939870cfb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <nav class="fixed-nav-bar">
+    <div class="website-links">
+      <ul>
+        <li><a href="#bio-section"> About me</a></li>
+        <li>/</li>
+        <li><a href="#research"> Research</a></li>
+        <li>/</li>
+        <li><a href="#service"> Service</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="bio-section"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
+
+        <div class="divider">
+          <hr />
+        </div>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <div class="box profile">
+                <a href="images/JustinLidard.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/JustinLidard-circle.png" class="hoverZoomLink"></a>
+                <h2 class="name section-heading" style="text-align:center"><name>Justin Lidard</name></h2>
+                <h3 class="affil">PhD Student, Princeton University</h3>
+                <h3 class="email"> jlidard [at] princeton [dot] edu </h3>
+                <ul>
+                  <!-- <li>
+                    <a href="./documents/CV_Madhu.pdf"><i class="ai ai-cv-square"></i></a>
+                  </li> -->
+                  <li>
+                    <a href="hhttps://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en"><i
+                        class="ai ai-google-scholar"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/https://github.com/jlidard"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/lidard/"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </td>
             <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Justin Lidard</name>
-              </p>
               <p>I am a PhD student in Mechanical and Aerospace Engineering at <a href="https://mae.princeton.edu/">Princeton</a>, advised by Professor <a href="https://naomi.princeton.edu/">Naomi Leonard</a>, where I will study multi-agent control theory, dynamical systems, machine learning, and their applications to robotics.  I am fortunate to be supported by the <a href="https://pr.princeton.edu/news/97/q3/0701-upton.html">Francis Robbins Upton Fellowship</a > and the <a href="https://ndseg.asee.org/">National Defense Science and Engineering Graduate</a> (NDSEG) Fellowship. I have also recieved the <a href="https://www.nasa.gov/directorates/spacetech/strg/nstgro">NASA Space Technology Graduate Research Opportunities</a> (NSTGRO; previously NSTRF) Fellowship.
               </p>
               <p>
@@ -40,22 +78,22 @@
               I did my undergrad at the <a href="https://aero.umd.edu/">University of Maryland</a>, where I completed thesis research advised by Professor <a href="https://aero.umd.edu/clark/faculty/58/Derek-A-Paley">Derek Paley</a> and funded by the <a href="http://www.aspire.umd.edu/">ASPIRE Research Program for Undergraduates</a>.
               </p>
               <p style="text-align:center">
-                <a href="mailto:jlidard@princeton.edu">Email</a> &nbsp/&nbsp
-                <a href="data/JustinLidard-CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/lidard">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="data/JustinLidard-bio.txt">Bio</a>
+                <a href="data/JustinLidard-CV.pdf"><b>CV</b></a> &nbsp/&nbsp
+                <a href="data/JustinLidard-bio.txt"><b>Bio</b></a>
               </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/JustinLidard.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/JustinLidard-circle.png" class="hoverZoomLink"></a>
+
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <div class="divider">
+          <hr />
+        </div>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="research"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <p class="section-heading">Research</p>
               <p>
                 I'm interested in dynamical systems, control theory, optimization, perception, and machine learning.
                 Much of my research is about modeling and interpreting the motion and stability of complex systems.
@@ -89,7 +127,7 @@
                 <papertitle>Feedback Control and Parameter Estimation for Lift Maximization of a Pitching Airfoil</papertitle>
               </a>
               <br>
-              <a href="http://jlidard.github.io/"><strong>Justin Lidard<strong></a>,
+              <strong>Justin Lidard</strong>,
               <a href="https://scholar.google.com/citations?user=Jzpca2gAAAAJ&hl=en">Debdipta Goswami</a>,
               <a href="https://www.linkedin.com/in/david-snyder-a25387bb/">David Snyder</a>,
               <a href="https://scholar.google.com/citations?user=LJkgHhUAAAAJ&hl=en">Girguis Sedky</a>,
@@ -132,7 +170,7 @@
                 <papertitle>Output Feedback Control for Lift Maximization of a Pitching Airfoil</papertitle>
               </a>
               <br>
-              <a href="http://jlidard.github.io/"><strong>Justin Lidard<strong></a>,
+              <strong>Justin Lidard</strong>,
               <a href="https://scholar.google.com/citations?user=Jzpca2gAAAAJ&hl=en">Debdipta Goswami</a>,
               <a href="https://www.linkedin.com/in/david-snyder-a25387bb/">David Snyder</a>,
               <a href="https://scholar.google.com/citations?user=LJkgHhUAAAAJ&hl=en">Girguis Sedky</a>,
@@ -150,16 +188,22 @@
               <p>Data-driven method for augementing the lift of a rapidly pitching airfoil using a nonlinear control law and bifurcation theory. An recursive Bayesian filter is implemented using an approximation of the Perron-Frobenius (PF) operator to summarize the nonlinear dynamics over a finite time horizon and estimate the flow state from lift measurements. </p>
             </td>
           </tr> 
-    
-    
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="service"><tbody>
+
+
+          <div class="divider">
+            <hr />
+          </div>
+        
           <tr>
             <td>
-              <heading>Service</heading>
+              <p class="section-heading">Service</p>
             </td>
           </tr>
         </tbody></table>
+
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/umd_aero.jpg" alt="umdaero">
