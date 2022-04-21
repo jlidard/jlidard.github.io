@@ -5,4 +5,4 @@ date: 2022-04-03
 inline: true
 ---
 
-I am fortunate to have recieved an <a href="https://www.research.gov/grfp/Login.do">NSF Graduate Reserach Fellowship</a>!
+I am fortunate to have recieved an <a href="https://www.research.gov/grfp/Login.do">NSF Graduate Research Fellowship</a>!

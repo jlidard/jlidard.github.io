@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Networked MARL
+description: Provably Efficient Networked Multi-agent Reinforcement Learning
 img:
-importance: 3
+importance: 1
 category: fun
 ---
 

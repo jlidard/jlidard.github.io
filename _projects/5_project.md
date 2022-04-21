@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Multi-Agent Predictions
+description: Game-Theoretic Multi-Agent Predictions and Interactions in Autonomous Driving
 img: assets/img/1.jpg
 importance: 3
 category: fun

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Second-year PhD Candidate in ML/Robotics (MAE) @ Princeton <br> <br>
 
