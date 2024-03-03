@@ -24,6 +24,6 @@ I design algorithms that enable robots to intelligently interact with people and
 is to help robots understand people's intents and values so that robots and humans can
 trust each other.  
 
-`jlidard`at`princeton`dot`edu`
+`jlidard` at `princeton` dot `edu`
 
 [Google Scholar](https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en) &nbsp; [Github](https://github.com/) &nbsp; [LinkedIn](https://www.linkedin.com/in/lidard/) 
