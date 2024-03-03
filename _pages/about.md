@@ -5,11 +5,11 @@ permalink: /
 subtitle:
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>`jlidard`[at]`princeton`[dot]`edu`<p>
+    
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -23,3 +23,7 @@ and [Naomi Leonard](https://naomi.princeton.edu/research-group/) on [robotics](h
 I design algorithms that enable robots to intelligently interact with people and to improve their behavior over time. My long-term goal 
 is to help robots understand people's intents and values so that robots and humans can
 trust each other.  
+
+`jlidard`at`princeton`dot`edu`
+
+[Google Scholar](https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en) &nbsp; [Github](https://github.com/) &nbsp; [LinkedIn](https://www.linkedin.com/in/lidard/) 
