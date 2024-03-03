@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Fortunate to be awarded the National Defense Science & Engineering Graduate Fellowship (NDSEG) and the NASA Space Technology Research Fellowship (NSTRF)!
+Fortunate to be awarded the National Defense Science & Engineering Graduate Fellowship (NDSEG) and the NASA Space Technology Research Fellowship (NST[R](/assets/img/baobei_hearts.gif)F)!
