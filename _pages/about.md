@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Welcome! I'm a PhD candidate at [Princeton](https://www.princeton.edu/), where I work with [Anirudha Majumdar](https://mae.princeton.edu/people/faculty/majumdar) 
-and [Naomi Leonard](https://naomi.princeton.edu/research-group/) on [robotics](https://www.princeton.edu/). During my PhD I've spent time at [Toyota Research Institute](https://www.tri.global/) working on [human-interactive driving](https://www.tri.global/our-work/human-interactive-driving). 
+and [Naomi Leonard](https://naomi.princeton.edu/research-group/) on [robotics](https://robo.princeton.edu/). During my PhD I've spent time at [Toyota Research Institute](https://www.tri.global/) working on [human-interactive driving](https://www.tri.global/our-work/human-interactive-driving). 
 
 I design algorithms that enable robots to intelligently interact with people and to improve their behavior over time. My long-term goal 
 is to help robots understand people's intents and values so that robots and humans can
