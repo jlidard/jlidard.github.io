@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 Fortunate to be awarded the National Defense Science & Engineering Graduate Fellowship (NDSEG) and the NASA Space Technology 
-Research Fellowship (NSTRF)! <a href="/assets/img/baobei_hearts.gif" style="color: black;">.</a>
+Research Fellowship (NSTRF)<a href="/assets/img/baobei_hearts.gif" style="color: black;">.</a>
