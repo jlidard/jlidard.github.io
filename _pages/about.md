@@ -26,4 +26,4 @@ trust each other.
 
 `jlidard` at `princeton` dot `edu`
 
-[Google Scholar](https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en) &nbsp; [Github](https://github.com/) &nbsp; [LinkedIn](https://www.linkedin.com/in/lidard/) 
+[Google Scholar](https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en) &nbsp; [Github](https://github.com/jlidard) &nbsp; [LinkedIn](https://www.linkedin.com/in/lidard/) 
