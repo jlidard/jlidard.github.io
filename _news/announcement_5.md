@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two recent [works](https://arxiv.org/abs/2402.14174)  on cooperative and non-cooperative planning! 
+Two papers ([KLGame](https://arxiv.org/abs/2402.14174), [RCIP](https://arxiv.org/abs/2403.15959)) accepted to RSS 2024. See you in Delft! 
