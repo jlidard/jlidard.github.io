@@ -22,7 +22,7 @@ and [Naomi Leonard](https://naomi.princeton.edu/research-group/) on [robotics](h
 PhD I've spent time at [Toyota Research Institute](https://www.tri.global/) working on [human-interactive driving](https://www.tri.global/our-work/human-interactive-driving). 
 
 I design algorithms that enable robots to intelligently interact with and learn from people. One of my key interests is [value alignment](https://en.wikipedia.org/wiki/AI_alignment) from an [optimal control](https://en.wikipedia.org/wiki/Optimal_control) perspective: AI systems 
-may offer strong performance but lack nuance in their understanding of intuitive and safe behaviors. To bridge this gap, I am working to enable robots to closely mimic people through [imitation](https://en.wikipedia.org/wiki/Imitative_learning) while still retaining the ability to optimize their long-term behavior.  My long-term goal is to enable robots to continuously adjust their strategies through [feedback](https://en.wikipedia.org/wiki/Feedback) during training, evaluation, and deployment. 
+may offer strong performance but lack nuance in their understanding of intuitive and safe behaviors. To bridge this gap, I am working to enable robots to closely mimic people through [imitation](https://en.wikipedia.org/wiki/Imitative_learning) while optimizing their long-term behavior for safety and robustness.  My long-term goal is to enable robots to continuously adjust their strategies through [feedback](https://en.wikipedia.org/wiki/Feedback) during training, evaluation, and deployment. 
 
 `jlidard` at `princeton` dot `edu`
 
