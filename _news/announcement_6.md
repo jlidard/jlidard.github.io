@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New [preprint](https://arxiv.org/abs/2409.00588) on fine-tuning Diffusion Policies with PPO! 
+New [preprint](https://arxiv.org/abs/2409.00588) with [Allen Ren](https://allenzren.github.io/) on fine-tuning Diffusion Policies with PPO! 
