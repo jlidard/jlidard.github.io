@@ -33,9 +33,9 @@
         <div id="intro-text">
           <h1>Justin Lidard</h1>
           <p>
-            I am a Research Scientist at <a href="https://deepmind.google/">Google DeepMind</a>. I build generally capable robots that act intelligently and safely in the real world. Recently, I've been thinking about how to train robot policies from diverse experiences &mdash; from internet video to real-world interaction.
+            I am a Research Scientist at <a href="https://deepmind.google/">Google DeepMind</a>, where I build generally capable robots that act safely in the real world. I currently focus on training robot policies from video data.
             <br><br>
-            I recently completed my PhD at <a href="https://www.princeton.edu/">Princeton</a>, where I worked with <a href="https://mae.princeton.edu/people/faculty/majumdar">Anirudha Majumdar</a> and <a href="https://naomi.princeton.edu/research-group/">Naomi Leonard</a> on <a href="https://robo.princeton.edu/">robotics</a>. During my PhD, I worked on <a href="https://diffusion-ppo.github.io/">RL for diffusion policies</a>, <a href="https://safe-racing.github.io/">safety filters</a>, and <a href="https://kl-games.github.io/">dynamic games</a>. Along the way, I spent time at the <a href="https://www.tri.global/">Toyota Research Institute</a> working on <a href="https://www.tri.global/our-work/human-interactive-driving">human-interactive driving</a>, and at Google with <a href="https://vikas.sindhwani.org/">Vikas Sindhwani</a>.
+            I recently completed my PhD at <a href="https://www.princeton.edu/">Princeton</a>, where I worked with <a href="https://mae.princeton.edu/people/faculty/majumdar">Anirudha Majumdar</a> and <a href="https://naomi.princeton.edu/research-group/">Naomi Leonard</a> on <a href="https://robo.princeton.edu/">robotics</a>. During my PhD, I worked on <a href="https://diffusion-ppo.github.io/">RL for diffusion policies</a>, <a href="https://safe-racing.github.io/">safety filters</a>, and <a href="https://kl-games.github.io/">dynamic games</a>. Along the way, I spent time at the <a href="https://www.tri.global/">Toyota Research Institute</a> working on <a href="https://www.tri.global/our-work/human-interactive-driving">human-interactive driving</a>, and at <a href="https://deepmind.google/models/gemini-robotics/">Google DeepMind</a> with <a href="https://vikas.sindhwani.org/">Vikas Sindhwani</a>.
             <br><br>
             <a href="https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://github.com/jlidard">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -70,7 +70,7 @@
             <p>
               Zhiting Mei, Christina Zhang, Tenny Yin, <b>Justin Lidard</b>, Ola Shorinwa, Anirudha Majumdar<br>
               <i>Findings of the Association for Computational Linguistics (EACL) 2026</i><br>
-              <b>TL;DR:</b> We introduce a benchmark that probes whether reasoning models know what they don't know, finding that longer reasoning often worsens rather than improves their calibration.<br>
+              <b>TL;DR:</b> We introduce a benchmark testing whether reasoning models know what they don't know, and find that longer chains of reasoning tend to make them more overconfident.<br>
               <a href="https://aclanthology.org/2026.findings-eacl.178/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2506.18183">PDF</a>
             </p>
@@ -87,7 +87,7 @@
             <p>
               Donggeon David Oh, <b>Justin Lidard</b>, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, Naomi Leonard, Jaime Fern&aacute;ndez Fisac<br>
               <i>Robotics: Science and Systems (RSS) 2025</i><br>
-              <b>TL;DR:</b> We introduce a neural safety filter that minimally edits human actions, preserving agency and comfort while guaranteeing safety in shared autonomy, demonstrated on AI-assisted racing.<br>
+              <b>TL;DR:</b> We introduce a neural safety filter that overrides a human driver as little as possible while still keeping them safe, validated in AI-assisted racing.<br>
               <a href="https://safe-racing.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2504.11717">PDF</a>
             </p>
@@ -104,7 +104,7 @@
             <p>
               Allen Z. Ren, <b>Justin Lidard</b>, Lars L. Ankile, Anthony Simeonov, Pulkit Agrawal, Anirudha Majumdar, Benjamin Burchfiel, Hongkai Dai, Max Simchowitz<br>
               <i>International Conference on Learning Representations (ICLR) 2025</i><br>
-              <b>TL;DR:</b> We introduce DPPO, a framework for fine-tuning diffusion policies with policy-gradient RL, yielding structured exploration, stable training, and state-of-the-art robot manipulation.<br>
+              <b>TL;DR:</b> We introduce DPPO, which fine-tunes diffusion policies with policy gradients to reach state-of-the-art performance on robot manipulation.<br>
               <a href="https://diffusion-ppo.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2409.00588">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://github.com/irom-princeton/dppo">Code</a>
@@ -122,7 +122,7 @@
             <p>
               Lihan Zha, Apurva Badithela, Michael Zhang, <b>Justin Lidard</b>, Jeremy Bao, Emily Zhou, David Snyder, Allen Z. Ren, Dhruv Shah, Anirudha Majumdar<br>
               <i>arXiv preprint, 2025</i><br>
-              <b>TL;DR:</b> We introduce factored scaling curves that predict policy performance per environmental factor, guiding budget-aware data collection that improves generalist manipulation.<br>
+              <b>TL;DR:</b> We introduce factored scaling curves that predict how much each environment factor limits a policy, showing where to spend a data-collection budget.<br>
               <a href="https://factored-data-scaling.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2505.07728">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://github.com/irom-princeton/factored-scaling-curves">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
@@ -141,7 +141,7 @@
             <p>
               Ola Shorinwa, Zhiting Mei, <b>Justin Lidard</b>, Allen Z. Ren, Anirudha Majumdar<br>
               <i>ACM Computing Surveys, 2025</i><br>
-              <b>TL;DR:</b> We present a taxonomy and survey of uncertainty quantification methods for large language models, mapping how they detect hallucinations and outlining open challenges.<br>
+              <b>TL;DR:</b> We survey the landscape of uncertainty quantification for large language models and organize it into a single taxonomy.<br>
               <a href="https://arxiv.org/abs/2412.05563">PDF</a>
             </p>
           </div>
@@ -157,7 +157,7 @@
             <p>
               <b>Justin Lidard</b>, Haimin Hu, Asher Hancock, Zixu Zhang, Albert Gim&oacute; Contreras, Vikash Modi, Jonathan DeCastro, Deepak Gopinath, Guy Rosman, Naomi Leonard, Mar&iacute;a Santos, Jaime Fern&aacute;ndez Fisac<br>
               <i>Robotics: Science and Systems (RSS) 2024</i><br>
-              <b>TL;DR:</b> We introduce KLGame, a KL-regularized dynamic game that fuses learned reference policies with game-theoretic planning to model noisily-rational humans for autonomous-vehicle motion planning.<br>
+              <b>TL;DR:</b> We introduce KLGame, a dynamic game that pulls a learned reference policy toward game-theoretic equilibria to capture how people actually drive.<br>
               <a href="https://kl-games.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2402.14174">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://github.com/SafeRoboticsLab/KLGame">Code</a>
@@ -175,7 +175,7 @@
             <p>
               <b>Justin Lidard</b>, Hang Pham, Ariel Bachman, Bryan Boateng, Anirudha Majumdar<br>
               <i>Robotics: Science and Systems (RSS) 2024</i><br>
-              <b>TL;DR:</b> We introduce RCIP, which calibrates set-valued intent predictions with finite-sample risk guarantees so robots know when to act or ask for help in zero-shot human-robot cooperation.<br>
+              <b>TL;DR:</b> We introduce RCIP, which predicts a calibrated set of plausible human intents so a robot knows when to act and when to ask for help.<br>
               <a href="https://risk-calibrated-planning.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://arxiv.org/abs/2403.15959">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://github.com/irom-princeton/risk_calibrated_interactive_planning">Code</a>
@@ -193,7 +193,7 @@
             <p>
               <b>Justin Lidard</b>, Udari Madhushani, Naomi Ehrich Leonard<br>
               <i>American Control Conference (ACC) 2022</i><br>
-              <b>TL;DR:</b> We introduce a decentralized multi-agent Q-learning algorithm with neighbor communication, proving faster convergence and lower sample complexity as group size and information sharing grow.<br>
+              <b>TL;DR:</b> We introduce a decentralized multi-agent RL algorithm where agents share information only with neighbors, and prove it converges faster as the group grows.<br>
               <a href="https://arxiv.org/abs/2110.07392">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
               <a href="https://ieeexplore.ieee.org/document/9867146">IEEE</a>
             </p>
