@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Title -->
+    <title>Justin Lidard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/Princeton_seal.svg">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Justin Lidard</h1>
+          <p>
+            Research Scientist at <a href="https://deepmind.google/">Google DeepMind</a>. I build robots that improve beyond their training data &mdash; learning from their own experience to reason, plan, and act safely in the real world. Recently, I've been thinking about how to train robot policies using large amounts of video data.
+            <br><br>
+            Previously, I completed my PhD at <a href="https://www.princeton.edu/">Princeton</a>, where I worked with <a href="https://mae.princeton.edu/people/faculty/majumdar">Anirudha Majumdar</a> and <a href="https://naomi.princeton.edu/research-group/">Naomi Leonard</a> on <a href="https://robo.princeton.edu/">robotics</a>, and spent time at the <a href="https://www.tri.global/">Toyota Research Institute</a> working on <a href="https://www.tri.global/our-work/human-interactive-driving">human-interactive driving</a>.
+            <br><br>
+            <a href="https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/jlidard">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/lidard/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="cv/JustinLidard_CV.pdf">CV</a>
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/prof_pic.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter=".publication">Publications</button>
+        <button class="button" data-filter=".news">News</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- ============================ PUBLICATIONS ============================ -->
+        <div class="list-item publication description" data-category="publication">
+          For an up-to-date list, see my <a href="https://scholar.google.com/citations?user=tdNDbF8AAAAJ&hl=en">Google Scholar</a>.
+        </div>
+
+        <!-- Reasoning About Uncertainty (EACL 2026) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2506.18183" class="thumbnail">
+            <img src="images/placeholder.svg" alt="" /> <!-- TODO: add thumbnail -->
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2506.18183">Reasoning About Uncertainty: Do Reasoning Models Know When They Don't Know?</a></h3>
+            <p>
+              Zhiting Mei, Christina Zhang, Tianyi Yin, <b>Justin Lidard</b>, Oswin So, Anirudha Majumdar<br>
+              <i>Findings of the Association for Computational Linguistics (EACL) 2026</i><br>
+              <a href="https://aclanthology.org/2026.findings-eacl.178/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2506.18183">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Safety with Agency (RSS 2025) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://safe-racing.github.io/" class="thumbnail">
+            <img src="images/safetywithagency.gif" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://safe-racing.github.io/">Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports</a></h3>
+            <p>
+              Donggeon David Oh, <b>Justin Lidard</b>, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, Naomi Leonard, Jaime Fern&aacute;ndez Fisac<br>
+              <i>Robotics: Science and Systems (RSS) 2025</i><br>
+              <a href="https://safe-racing.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2504.11717">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- DPPO (ICLR 2025) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://diffusion-ppo.github.io/" class="thumbnail">
+            <img src="images/dppo-banner-v2.gif" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://diffusion-ppo.github.io/">Diffusion Policy Policy Optimization</a></h3>
+            <p>
+              Allen Z. Ren, <b>Justin Lidard</b>, Lars L. Ankile, Anthony Simeonov, Pulkit Agrawal, Anirudha Majumdar, Benjamin Burchfiel, Hongkai Dai, Max Simchowitz<br>
+              <i>International Conference on Learning Representations (ICLR) 2025</i><br>
+              <a href="https://diffusion-ppo.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2409.00588">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/irom-princeton/dppo">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Factored Scaling Curves (2025) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://factored-data-scaling.github.io/" class="thumbnail">
+            <img src="images/placeholder.svg" alt="" /> <!-- TODO: add thumbnail -->
+          </a>
+          <div class="project-description">
+            <h3><a href="https://factored-data-scaling.github.io/">Guiding Data Collection via Factored Scaling Curves</a></h3>
+            <p>
+              Lihan Zha, Apurva Badithela, Michael Zhang, <b>Justin Lidard</b>, Jeremy Bao, Emily Zhou, David Snyder, Allen Z. Ren, et al.<br>
+              <i>arXiv preprint, 2025</i><br>
+              <a href="https://factored-data-scaling.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2505.07728">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/irom-princeton/factored-scaling-curves">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://www.youtube.com/watch?v=unTqsgAVE1o">Video</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- UQ Survey (2025) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2412.05563" class="thumbnail">
+            <img src="images/consistency_and_factuality-1.png" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2412.05563">A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions</a></h3>
+            <p>
+              Ola Shorinwa, Zhiting Mei, <b>Justin Lidard</b>, Allen Z. Ren, Anirudha Majumdar<br>
+              <i>ACM Computing Surveys, 2025</i><br>
+              <a href="https://arxiv.org/abs/2412.05563">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- KLGame (RSS 2024) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://kl-games.github.io/" class="thumbnail">
+            <img src="images/scenario_3agent_trimmed_v2.gif" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://kl-games.github.io/">Blending Data-Driven Priors in Dynamic Games</a></h3>
+            <p>
+              <b>Justin Lidard</b>, Haimin Hu, Asher Hancock, Zixu Zhang, Albert Gim&oacute; Contreras, Vikash Modi, Jonathan DeCastro, Deepak Gopinath, Guy Rosman, Naomi Leonard, Mar&iacute;a Santos, Jaime Fern&aacute;ndez Fisac<br>
+              <i>Robotics: Science and Systems (RSS) 2024</i><br>
+              <a href="https://kl-games.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2402.14174">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/SafeRoboticsLab/KLGame">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- RCIP (RSS 2024) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://risk-calibrated-planning.github.io/" class="thumbnail">
+            <img src="images/goodtake3_cut_handbrake.gif" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://risk-calibrated-planning.github.io/">Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction</a></h3>
+            <p>
+              <b>Justin Lidard</b>, Hang Pham, Ariel Bachman, Bryan Boateng, Anirudha Majumdar<br>
+              <i>Robotics: Science and Systems (RSS) 2024</i><br>
+              <a href="https://risk-calibrated-planning.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/abs/2403.15959">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/irom-princeton/risk_calibrated_interactive_planning">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Decentralized MARL (ACC 2022) -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2110.07392" class="thumbnail">
+            <img src="images/regret.png" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2110.07392">Provably Efficient Multi-Agent Reinforcement Learning with Fully Decentralized Communication</a></h3>
+            <p>
+              <b>Justin Lidard</b>, Udari Madhushani, Naomi Ehrich Leonard<br>
+              <i>American Control Conference (ACC) 2022</i><br>
+              <a href="https://arxiv.org/abs/2110.07392">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://ieeexplore.ieee.org/document/9867146">IEEE</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- ============================ NEWS ============================ -->
+        <div class="list-item news" data-category="news">
+          <p class="date">2025</p>Exciting new work on scaling up safety filters to high-dimensional, human-in-the-loop systems coming soon. Stay tuned!
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date"></p><a href="https://arxiv.org/abs/2409.00588">DPPO</a> is accepted to ICLR 2025. See you in Singapore!
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date">2024</p>New <a href="https://arxiv.org/abs/2412.05563">survey paper</a> on uncertainty quantification in LLMs.
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date"></p>New <a href="https://arxiv.org/abs/2409.00588">preprint</a> with <a href="https://allenzren.github.io/">Allen Ren</a> on fine-tuning Diffusion Policies with PPO!
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date"></p>Two papers (<a href="https://arxiv.org/abs/2402.14174">KLGame</a>, <a href="https://arxiv.org/abs/2403.15959">RCIP</a>) accepted to RSS 2024. See you in Delft!
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date">2023</p><a href="https://arxiv.org/abs/2305.17600">Preprint</a> on my internship work at TRI is now available.
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date">2022</p>Awarded the NSF Graduate Research Fellowship.
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date"></p>First <a href="https://ieeexplore.ieee.org/document/9867146">paper</a> on efficient decentralized MARL with communication accepted to the 2022 American Control Conference! Oral at the 2022 <a href="https://rlg.mlanctot.info/2022/sched.html">AAAI Workshop on RL in Games</a>.
+        </div>
+
+        <div class="list-item news" data-category="news">
+          <p class="date">2020</p>Fortunate to be awarded the National Defense Science &amp; Engineering Graduate Fellowship (NDSEG) and the NASA Space Technology Research Fellowship (NSTRF).
+        </div>
+
+      </div>
+
+      <!-- Template adapted from Andy Zeng (https://github.com/andyzeng/andyzeng.github.io), itself based on Jon Barron's website (https://jonbarron.info/). -->
+      <div id="footer">Website template by <a href="https://andyzeng.github.io/">Andy Zeng</a> and <a href="https://jonbarron.info/">Jon Barron</a>.</div>
+
+    </div>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          category: '[data-category]',
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {
+          defaultFilterValue = ".publication"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      update_isotope();
+
+    </script>
+  </body>
+</html>
